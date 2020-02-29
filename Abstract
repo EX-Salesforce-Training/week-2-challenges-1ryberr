@@ -1,0 +1,29 @@
+public class MyClass1 extends MyAbstract {
+		 integer num;
+		 String person;
+		 
+			 public MyClass1(){
+					this(1);   
+			 }
+			 public MyClass1(integer i){
+					this(3,'girl');
+					this.num = i;    
+			
+		 }
+		 
+		 public MyClass1(integer i, String girl){     
+			this.num = i;
+			this.person = girl;
+		 }
+		 
+		 public void doWork(integer i){
+					System.debug('Working'+ i);   
+				 }
+		
+		 public override void makeWork(){
+			super.makeWork();
+			 System.debug('hard Working');   
+		}
+		
+
+}

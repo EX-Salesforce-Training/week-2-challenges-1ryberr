@@ -1,3 +1,17 @@
+
+public abstract class MyAbstract {
+    public virtual void makeWork(){
+        System.debug('Working');
+    }
+    abstract void doWork(integer i);
+    
+}
+
+
+
+
+
+
 public class MyClass1 extends MyAbstract {
 		 integer num;
 		 String person;
